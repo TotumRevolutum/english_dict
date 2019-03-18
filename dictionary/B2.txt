@@ -8,7 +8,6 @@ abstemious скромный #
 abstruse глубокомысленный #
 accolade похвала #
 affable приветливый #
-affinity эмоциональное родство #
 affliction страдание #
 affluent изобильный #
 alacrity готовность #
@@ -19,8 +18,6 @@ amiable дружелюбный #
 animosity враждебность #
 annex приложение #
 bellicose воинственный #
-belligerent воюющая сторона #
-beneficiary глава церковного прихода #
 bigot фанатик #
 bilk обманывать #
 billow лавина #

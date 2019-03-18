@@ -8,10 +8,10 @@ before до #
 believe верить #
 book книга #
 both оба #
-boy мальчик #
+boy мальчик парень#
 brother брат #
 buy купить #
-can мочь #
+can мочь могу можешь #
 catch ловить #
 children дети #
 choose Выбирать #
@@ -23,7 +23,7 @@ come приходить #
 country страна #
 day день #
 death смерть #
-disease болезнь #
+disease болезнь заболевание#
 do делать #
 door дверь #
 Earth Земля #

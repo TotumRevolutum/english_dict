@@ -88,9 +88,7 @@ tidy up убирать #
 travel путешествовать #
 unforgettable незабываемый #
 violin скрипка #
-vocabulary словарный запас #
 wander бродить #
-weather forecast прогноз погоды #
 weird странный #
 wheel рулевое колесо #
 win Выигрывать #
