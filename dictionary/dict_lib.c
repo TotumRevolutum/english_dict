@@ -4,6 +4,8 @@
 struct en_d{
     char key[33];
     struct definition * val;
+    struct en_d *prev;
+    struct en_d *next;
 };
 
 struct definition{
