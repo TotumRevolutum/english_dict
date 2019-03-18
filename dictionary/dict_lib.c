@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 struct en_d{
-
+    char key[33];
+    struct definition * val;
 };
 
 struct definition{
