@@ -8,6 +8,7 @@ int main() {
     char level[2];
     int r = rand() % 99;
     int number;
+    struct en_d dictionary;
     FILE *f;
 
     line(44);
@@ -20,7 +21,6 @@ int main() {
     line(44);
     printf("|How many words would you like to practice?|\n");
     line(44);
-
     scanf("%d", &number);
     for (int i = 0; i < number; i++){
         printf("%d\n", r);

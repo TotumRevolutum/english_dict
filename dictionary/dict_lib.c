@@ -13,3 +13,14 @@ struct definition{
     struct definition * prev;
     struct definition * next;
 };
+
+int add(struct en_d *dict, char word){
+    struct en_d *cur;
+    cur = (struct en_d*) malloc (sizeof(struct en_d));
+    cur->key = word;
+    cur->right = NULL;
+    cur->up = root;
+    cur->val = val;
+    cur->oper = ' ';
+    root->right = cur;
+}

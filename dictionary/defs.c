@@ -12,18 +12,18 @@ void line(int n){
 FILE *find(char *level){
     FILE *f;
     if (strcmp(level, "A1")){
-        f = fopen("A1.txt", "r");
+        f = fopen("levels/A1.txt", "r");
     }else{
         if (strcmp(level, "A2")){
-            f = fopen("A2.txt", "r");
+            f = fopen("levels/A2.txt", "r");
         }else{
             if (strcmp(level, "B1")){
-                f = fopen("B1.txt", "r");
+                f = fopen("levels/B1.txt", "r");
             }else{
                 if (strcmp(level, "B2")){
-                    f = fopen("B2.txt", "r");
+                    f = fopen("levels/B2.txt", "r");
                 }else{
-                    f = fopen("C1.txt", "r");
+                    f = fopen("levels/C1.txt", "r");
                 }
             }
         }
