@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct en_d{
     char key[33];
@@ -14,13 +15,25 @@ struct definition{
     struct definition * next;
 };
 
-int add(struct en_d *dict, char word){
+int add(struct en_d **prev, char *word, int *start){
     struct en_d *cur;
     cur = (struct en_d*) malloc (sizeof(struct en_d));
-    cur->key = word;
-    cur->right = NULL;
-    cur->up = root;
-    cur->val = val;
-    cur->oper = ' ';
-    root->right = cur;
+    if (cur == NULL) {
+        printf("parasha");
+        return 1;
+    }
+    strcpy(cur->key, word);
+    cur->val = NULL;
+    cur->next = NULL;
+    if ((*start) != 0) {
+        cur->prev = (*prev);
+        (*prev)->next = cur;
+        *start += 1;
+    }
+    else{
+        *start += 1;
+        cur->prev = NULL;
+        (*prev) = cur;
+    }
+    return 0;
 }

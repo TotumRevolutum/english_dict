@@ -11,18 +11,19 @@ void line(int n){
 
 FILE *find(char *level){
     FILE *f;
-    if (strcmp(level, "A1")){
+    printf("%d\n", (strcmp(level, "A1")));
+    if (strcmp(level, "A1") == 0){
         f = fopen("levels/A1.txt", "r");
-    }else{
-        if (strcmp(level, "A2")){
+    } else {
+        if (strcmp(level, "A2") == 0){
             f = fopen("levels/A2.txt", "r");
-        }else{
-            if (strcmp(level, "B1")){
+        } else {
+            if (strcmp(level, "B1") == 0){
                 f = fopen("levels/B1.txt", "r");
-            }else{
-                if (strcmp(level, "B2")){
+            } else {
+                if (strcmp(level, "B2") == 0){
                     f = fopen("levels/B2.txt", "r");
-                }else{
+                } else {
                     f = fopen("levels/C1.txt", "r");
                 }
             }
