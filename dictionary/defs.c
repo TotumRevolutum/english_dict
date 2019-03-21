@@ -57,13 +57,13 @@ int comparison(struct en_d *dict){
     line(44);
     char def[33];
     scanf("%s", def);
-    //printf("%s\n %s\n", def, dict->val->def);
     if (strcmp(dict->val->def, def) == 0){
         printf("YES\n");
+        return 0;
     }
     else{
         printf("NO\n");
         printf("%s\n", dict->val->def);
+        return 1;
     }
-    return 0;
 }
