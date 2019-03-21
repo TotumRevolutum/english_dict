@@ -9,9 +9,9 @@ void line(int n){
     printf("\n");
 }
 
+
 FILE *find(char *level){
     FILE *f;
-    printf("%d\n", (strcmp(level, "A1")));
     if (strcmp(level, "A1") == 0){
         f = fopen("levels/A1.txt", "r");
     } else {
@@ -32,6 +32,25 @@ FILE *find(char *level){
     return f;
 }
 
+void open_level(struct en_d **dictionary, struct en_d **cur){
+    FILE *f;
+    char level[2];
+    char buf[50];
+    int start = 0, flag = 0;
+    scanf("%s", level);
+    f = find(level);
+    while (fscanf (f, "%s", buf) == 1){
+        add_word(cur, buf, &start);
+        flag = 0;
+        if (start != 1) (*cur) = (*cur)->next;
+        else (*dictionary) = (*cur);
+        while ((strcmp(buf, "#")) != 0){
+            fscanf (f, "%s", buf);
+            add_def(cur, buf, &flag);
+        }
+    }
+}
+
 int comparison(struct en_d *dict){
     line(44);
     printf("|     Write down defenition of the word    |\n");
@@ -44,6 +63,7 @@ int comparison(struct en_d *dict){
     }
     else{
         printf("NO\n");
+        printf("%s\n", dict->val->def);
     }
     return 0;
 }
