@@ -15,7 +15,7 @@ struct definition{
     struct definition * next;
 };
 
-int add(struct en_d **prev, char *word, int *start){
+int add_word(struct en_d **prev, char *word, int *start){
     struct en_d *cur;
     cur = (struct en_d*) malloc (sizeof(struct en_d));
     if (cur == NULL) {
@@ -34,6 +34,30 @@ int add(struct en_d **prev, char *word, int *start){
         *start += 1;
         cur->prev = NULL;
         (*prev) = cur;
+    }
+    return 0;
+}
+
+int add_def(struct en_d **dict, char *word, int *flag){
+    struct definition *cur;
+    struct definition *tmp;
+    tmp = (*dict)->val;
+    cur = (struct definition*) malloc (sizeof(struct definition));
+    if (cur == NULL) {
+        printf("parasha");
+        return 1;
+    }
+    strcpy(cur->def, word);
+    cur->prev = NULL;
+    cur->next = NULL;
+    if ((*flag) == 0){
+        *flag += 1;
+        (*dict)->val = cur;
+    }
+    else{
+        while (tmp != NULL){
+            tmp = tmp->next;
+        }
     }
     return 0;
 }

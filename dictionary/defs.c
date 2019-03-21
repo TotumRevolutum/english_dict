@@ -31,3 +31,19 @@ FILE *find(char *level){
     }
     return f;
 }
+
+int comparison(struct en_d *dict){
+    line(44);
+    printf("|     Write down defenition of the word    |\n");
+    line(44);
+    char def[33];
+    scanf("%s", def);
+    //printf("%s\n %s\n", def, dict->val->def);
+    if (strcmp(dict->val->def, def) == 0){
+        printf("YES\n");
+    }
+    else{
+        printf("NO\n");
+    }
+    return 0;
+}
