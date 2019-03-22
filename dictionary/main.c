@@ -12,7 +12,6 @@ int main() {
     double perc = 0;
     struct en_d *dictionary = NULL;
     struct en_d *cur;
-    struct en_d *tmp;
     cur = dictionary;
 
     line(44);
@@ -25,19 +24,7 @@ int main() {
     printf("|How many words would you like to practice?|\n");
     line(44);
     scanf("%lf", &number);
-
-    for (int i = 0; i < number; i++){
-        tmp = dictionary;
-        for (int j = 0; j < r; j++){
-            tmp = tmp->next;
-        }
-        printf("%s\n", tmp->key);
-        if (comparison(tmp) == 0){
-            score ++;
-        };
-        srand(time(NULL));
-        r = rand() % 90;
-    }
+    print_words(number, dictionary, &score, r);
     perc = score / number * 100;
     printf("|How many words would you like to practice?|\n");
     printf("|          You got %lf %%           |\n", perc);

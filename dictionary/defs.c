@@ -67,3 +67,20 @@ int comparison(struct en_d *dict){
         return 1;
     }
 }
+
+int print_words(double number, struct en_d *dictionary, double *score, int r){
+    struct en_d *tmp;
+    for (int i = 0; i < number; i++){
+        tmp = dictionary;
+        for (int j = 0; j < r; j++){
+            tmp = tmp->next;
+        }
+        printf("%s\n", tmp->key);
+        if (comparison(tmp) == 0){
+            (*score) ++;
+        };
+        srand(time(NULL));
+        r = rand() % 90;
+    }
+    return 0;
+}
