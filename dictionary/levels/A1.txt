@@ -1,5 +1,5 @@
-advice совет #
-again опять #
+advice(n) совет советовать #
+again(adv) опять снова вновь #
 although хотя #
 answer ответ #
 any любой #

@@ -32,7 +32,7 @@ FILE *find(char *level){
     return f;
 }
 
-void open_level(struct en_d **dictionary, struct en_d **cur){
+void open_level(struct en_d **dictionary, struct definition **a, struct en_d **cur){
     FILE *f;
     char level[2];
     char buf[50];
@@ -46,26 +46,33 @@ void open_level(struct en_d **dictionary, struct en_d **cur){
         else (*dictionary) = (*cur);
         while ((strcmp(buf, "#")) != 0){
             fscanf (f, "%s", buf);
-            add_def(cur, buf, &flag);
+            if (strcmp(buf, "#") == 0) break;
+            printf("%s!!!\n", buf);
+            add_def(cur, a, buf, &flag);
         }
     }
 }
 
 int comparison(struct en_d *dict){
     line(44);
-    printf("|     Write down defenition of the word    |\n");
+    printf("|     Write down definition of the word    |\n");
     line(44);
     char def[33];
     scanf("%s", def);
-    if (strcmp(dict->val->def, def) == 0){
-        printf("YES\n");
-        return 0;
-    }
-    else{
-        printf("NO\n");
+    while (dict->val->next != NULL){
         printf("%s\n", dict->val->def);
-        return 1;
+        if (strcmp(dict->val->def, def) == 0){
+            printf("YES\n");
+            return 0;
+        }
+        else{
+            printf("possible: %s\n", dict->val->def);
+        }
+        dict->val = dict->val->next;
     }
+    printf("NO\n");
+    printf("%s\n", dict->val->def);
+    return 1;
 }
 
 int print_words(double number, struct en_d *dictionary, double *score, int r){
@@ -80,7 +87,7 @@ int print_words(double number, struct en_d *dictionary, double *score, int r){
             (*score) ++;
         };
         srand(time(NULL));
-        r = rand() % 90;
+        r = rand() % 5;
     }
     return 0;
 }

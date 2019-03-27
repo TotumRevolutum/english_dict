@@ -12,6 +12,7 @@ int main() {
     double perc = 0;
     struct en_d *dictionary = NULL;
     struct en_d *cur;
+    struct definition * a = NULL;
     cur = dictionary;
 
     line(44);
@@ -19,7 +20,12 @@ int main() {
     printf("|            Your English level is         |\n");
     printf("|               A1 A2 B1 B2 C1             |\n");
     line(44);
-    open_level(&dictionary, &cur);
+    open_level(&dictionary, &a, &cur);
+    while (dictionary->val->next != NULL){
+        printf("%s\n", dictionary->val->def);
+        dictionary->val = dictionary->val->next;
+    }
+
     line(44);
     printf("|How many words would you like to practice?|\n");
     line(44);
