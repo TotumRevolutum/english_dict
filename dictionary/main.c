@@ -22,10 +22,8 @@ int main() {
     line(44);
     open_level(&dictionary, &a, &cur);
     while (dictionary->val->next != NULL){
-        printf("%s\n", dictionary->val->def);
         dictionary->val = dictionary->val->next;
     }
-
     line(44);
     printf("|How many words would you like to practice?|\n");
     line(44);

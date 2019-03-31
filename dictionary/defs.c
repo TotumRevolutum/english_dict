@@ -9,6 +9,20 @@ void line(int n){
     printf("\n");
 }
 
+int all_in(int *arr, double number){
+    int r;
+    r = rand() % 98;
+    while (1 == 1){
+        for (int i = 0; i < number; i++){
+            if (arr[i] == r){
+                r = rand() % 98;
+            }
+            else continue;
+        }
+        break;
+    }
+    return r;
+}
 
 FILE *find(char *level){
     FILE *f;
@@ -47,11 +61,11 @@ void open_level(struct en_d **dictionary, struct definition **a, struct en_d **c
         while ((strcmp(buf, "#")) != 0){
             fscanf (f, "%s", buf);
             if (strcmp(buf, "#") == 0) break;
-            printf("%s!!!\n", buf);
             add_def(cur, a, buf, &flag);
         }
     }
 }
+
 
 int comparison(struct en_d *dict){
     line(44);
@@ -59,8 +73,7 @@ int comparison(struct en_d *dict){
     line(44);
     char def[33];
     scanf("%s", def);
-    while (dict->val->next != NULL){
-        printf("%s\n", dict->val->def);
+    while (dict->val != NULL){
         if (strcmp(dict->val->def, def) == 0){
             printf("YES\n");
             return 0;
@@ -71,11 +84,14 @@ int comparison(struct en_d *dict){
         dict->val = dict->val->next;
     }
     printf("NO\n");
-    printf("%s\n", dict->val->def);
     return 1;
 }
 
+
 int print_words(double number, struct en_d *dictionary, double *score, int r){
+    int arr[100];
+    for (int i = 0; i < 100; i++) arr[i] = 0;
+    int q = 0;
     struct en_d *tmp;
     for (int i = 0; i < number; i++){
         tmp = dictionary;
@@ -87,7 +103,9 @@ int print_words(double number, struct en_d *dictionary, double *score, int r){
             (*score) ++;
         };
         srand(time(NULL));
-        r = rand() % 5;
+        r = all_in(arr, number);
+        arr[q] = r;
+        q++;
     }
     return 0;
 }
