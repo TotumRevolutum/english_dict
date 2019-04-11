@@ -1,16 +1,14 @@
 abolish отменять #
 addiction зависимость #
-agriculture сельское хозяйство #
 amateur любитель #
-ambassador посол #
-ambulance скорая помощь #
+ambassador(n) посол #
 anger злость #
 approve одобрять #
-apron фартук #
+apron(n) фартук #
 arrange организовывать #
 arrogant высокомерный #
 boast хвастаться #
-bodyguard телохранитель #
+bodyguard(n) телохранитель #
 canteen столовая #
 celebrity знаменитость #
 childhood детство #
