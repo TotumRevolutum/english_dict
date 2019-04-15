@@ -11,11 +11,11 @@ void line(int n){
 
 int all_in(int *arr, double number){
     int r;
-    r = rand() % 98;
+    r = rand() % 100;
     while (1 == 1){
         for (int i = 0; i < number; i++){
             if (arr[i] == r){
-                r = rand() % 98;
+                r = rand() % 100;
             }
             else continue;
         }
@@ -62,6 +62,7 @@ void open_level(struct en_d **dictionary, struct definition **a, struct en_d **c
             fscanf (f, "%s", buf);
             if (strcmp(buf, "#") == 0) break;
             add_def(cur, a, buf, &flag);
+
         }
     }
 }
@@ -69,12 +70,12 @@ void open_level(struct en_d **dictionary, struct definition **a, struct en_d **c
 
 int comparison(struct en_d *dict){
     line(44);
-    printf("|     Write down definition of the word    |\n");
+    printf("|         Write down the definition       |\n");
     line(44);
     char def[33];
     scanf("%s", def);
     while (dict->val != NULL){
-        if (strcmp(dict->val->def, def) == 0){
+        if (abs(strcmp(dict->val->def, def)) <= 1){
             printf("YES\n");
             return 0;
         }

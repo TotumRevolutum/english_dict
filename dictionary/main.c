@@ -7,7 +7,7 @@
 
 int main() {
     srand(time(NULL));
-    int r = rand() % 99;
+    int r = rand() % 100;
     double number, score = 0;
     double perc = 0;
     struct en_d *dictionary = NULL;
@@ -16,7 +16,7 @@ int main() {
     cur = dictionary;
 
     line(44);
-    printf("|         Добро пожаловать в EnLang        |\n");
+    printf("|         Добро пожаловать в EngLan        |\n");
     printf("|            Your English level is         |\n");
     printf("|               A1 A2 B1 B2 C1             |\n");
     line(44);

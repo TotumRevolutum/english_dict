@@ -91,3 +91,10 @@ vain(adj) тщеславный #
 valuable(adj) ценный #
 whistle(v) свистеть #
 withdraw(v) извлекать #
+mistake(n) ошибка #
+moon(n) Луна #
+mountain(n) гора #
+mysterious(adj) загадочный #
+mystery(n) загадка #
+nightmare(n) кошмар #
+jewellery(n) драгоценности #

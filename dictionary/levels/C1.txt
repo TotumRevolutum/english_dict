@@ -1,6 +1,5 @@
 abate(v) уменьшать #
 abjure(v) отказываться #
-ambidextrous(n) владеющий двумя руками #
 aphoristic(adj) афористичный #
 augury(n) предсказание #
 avaricious(adj) алчный #
@@ -49,7 +48,6 @@ ostracism(n) гонение #
 parsimonious(adj) бережливый #
 pejorative(adj) уничижительный #
 penchant(v) склонность #
-perch(n) жердочка для птиц #
 pervade(v) заполнять #
 petulant(adj) нетерпеливый #
 philanthropy(v) благотворительность #
@@ -71,7 +69,7 @@ proprietary(n) собственнический #
 provident(n) предвидящий #
 proximity(v) близость #
 prudent(adj) благоразумный #
-quintessential(n) наиболее типичный #
+quintessential(n) типичный #
 raconteur(n) рассказчик #
 rarefy(v) разжижаться #
 refulgent(n) сверкающий #
@@ -81,7 +79,6 @@ solicitous(adj) внимательный #
 stipulate(v) ставить условием #
 subliminal(adj) подсознательный #
 supine(n) навзничь #
-throwback(n) движение назад #
 untoward(adj) упрямый #
 vehemence(v) горячность #
 venerate(v) благоговеть #
@@ -96,4 +93,8 @@ vitriolic(n) саркастический #
 vituperate(v) бранить #
 volatile(adj) непостоянный #
 voluptuous(adj) чувственный #
-whittle(adj) большой нож #
+absolution(n) освобождение #
+alleviate(v) облегчать #
+ambiguous(adj) двусмысленный #
+ambivalent(adj) двойственный #
+blasphemy(n) богохульство #

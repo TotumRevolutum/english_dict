@@ -45,7 +45,6 @@ credulous(adj) доверчивый #
 crepuscular(adj) мрачный #
 cringe(v) раболепствовать #
 cryptic(adj) загадочный #
-enfranchise(v) предоставлять права #
 engender(v) порождать #
 enhance(v) усиливать #
 ensconce(v) укрывать #
@@ -95,3 +94,7 @@ tedium(n) скука #
 temper(n) характер #
 tenacious(n) крепкий #
 tentative(adj) предварительный #
+promotion(n) продвижение #
+prosecutor(n) прокурор #
+quarrel(n) ссора #
+sufficient(adj) достаточный #

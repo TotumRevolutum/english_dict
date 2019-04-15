@@ -1,60 +1,100 @@
-advice(n) совет советовать #
 again(adv)(v) опять снова вновь #
-although(conj)(n) хотя #
+although(n) хотя #
+answer(n) ответ #
 any(adj) любой #
 become(v) становиться #
 before(n) до #
 believe(v) верить #
+book(n) книга #
+both(n) оба обе#
+boy(n) мальчик парень#
+brother(n) брат #
 buy(v) купить покупать#
 can(n) мочь могу можешь #
-catch(v) ловить поймать#
-choose(v) выбирать выбрать#
+catch(v) ловить поймать #
+children(n) дети ребята #
+choose(v) выбирать выбрать #
 climb(v) взбираться #
 close(v) закрывать #
+clothes(n) одежда вещи #
 colour(n) цвет #
 come(v) приходить #
-death(n)(v) смерть #
-do(v) делать действовать#
+country(n) страна #
+day(n) день #
+death(v) смерть #
+disease(n) болезнь заболевание #
+do(v) делать действовать #
+door(n) дверь #
+Earth(n) Земля #
+edge(n) край #
 enough(adv) достаточно #
+example(n) пример #
 eye(n) глаз #
+father(n) oтец #
 find(v) находить #
 free(adj) свободный #
+friend(n) друг #
 from(n) из #
+girl(n) девочка девушка#
 give(v) дать отдать#
 good(n) хороший #
 great(adj) великолепный #
-happy(adj) счастливый радостный#
+group(n) группа #
+happy(adj) счастливый радостный #
 have(v) иметь #
 hear(v) услышать #
+island(n) остров #
 kind(adj) добрый #
 know(v) знать #
 learn(v) учить #
+letter(n) письмо #
 like(v) нравиться #
 listen(v) слушать #
 live(v) жить #
+love(n) любовь #
 many(n) много #
-mother(n)(v) мать #
+money(n) Деньги #
+mother(v) мать #
 move(v) двигать #
 next(n) следующий #
+night(n) ночь #
+number(n) номер #
 often(n) часто #
 old(adj) старый #
 only(n) только #
 open(v) открывать #
-part(n)(v) часть #
-really(adv) действительно определенно#
-right(adj) правильный верный#
-say(v) сказать говорить#
-some(adj) некоторый несколько#
+paper(n) бумага #
+part(v) часть #
+people(n) люди #
+picture(n) картина #
+piece(n) кусок часть #
+pumpkin(n) тыква #
+rain(n) дождь #
+really(adv) действительно определенно #
+right(adj) правильный верный #
+room(n) комната #
+say(v) сказать говорить #
+science(n) наука #
+side(n) сторона #
+sign(n) знак #
+sister(n) сестра #
+snow(n) снег #
+some(adj) некоторый несколько #
 straight(adj) прямой #
+sun(n) солнце #
 sure(adj) уверенный #
-talk(v) говорить разговаривать#
+talk(v) говорить разговаривать #
 there(n) там #
-they(pn)(n) они #
+they(n) они #
 today(n) сегодня #
 usually(adv) обычно #
 walk(v) ходить #
 want(v) хотеть #
 watch(v) смотреть #
+water(n) вода #
+woman(n) женщина девушка #
 work(v) работать #
+world(n) мир #
 write(v) писать #
 young(adj) молодой #
+school(n) школа #
