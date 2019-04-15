@@ -6,7 +6,7 @@ become(v) становиться #
 before(n) до #
 believe(v) верить #
 book(n) книга #
-both(n) оба обе#
+both(n) оба обе #
 boy(n) мальчик парень#
 brother(n) брат #
 buy(v) купить покупать#
@@ -35,8 +35,8 @@ find(v) находить #
 free(adj) свободный #
 friend(n) друг #
 from(n) из #
-girl(n) девочка девушка#
-give(v) дать отдать#
+girl(n) девочка девушка #
+give(v) дать отдать #
 good(n) хороший #
 great(adj) великолепный #
 group(n) группа #
@@ -53,7 +53,7 @@ listen(v) слушать #
 live(v) жить #
 love(n) любовь #
 many(n) много #
-money(n) Деньги #
+money(n) деньги #
 mother(v) мать #
 move(v) двигать #
 next(n) следующий #

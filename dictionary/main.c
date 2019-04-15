@@ -8,6 +8,7 @@
 int main() {
     srand(time(NULL));
     int r = rand() % 100;
+    int flag = 0;
     double number, score = 0;
     double perc = 0;
     struct en_d *dictionary = NULL;
@@ -28,7 +29,7 @@ int main() {
     printf("|How many words would you like to practice?|\n");
     line(44);
     scanf("%lf", &number);
-    print_words(number, dictionary, &score, r);
+    print_words(number, dictionary, &score, r, flag);
     perc = score / number * 100;
     printf("|How many words would you like to practice?|\n");
     printf("|          You got %lf %%           |\n", perc);
