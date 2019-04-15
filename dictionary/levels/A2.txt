@@ -61,8 +61,8 @@ messy(adj) неряшливый #
 mistake(n) ошибка #
 moon(n) Луна #
 mountain(n) гора #
-mysterious(adj) загадочный #
-mystery(n) загадка #
+mysterious(adj) загадочный таинственный #
+mystery(n) загадка тайна #
 nightmare(n) кошмар #
 novel(n) роман #
 oil(n) масло #

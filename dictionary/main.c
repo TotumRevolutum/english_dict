@@ -31,7 +31,19 @@ int main() {
     scanf("%lf", &number);
     print_words(number, dictionary, &score, r, flag);
     perc = score / number * 100;
-    printf("|How many words would you like to practice?|\n");
-    printf("|          You got %lf %%           |\n", perc);
+    printf("|           You got %lf %%            |\n", perc);
+    if ((0.0 <= perc) && (perc <= 20.0)){
+        printf("|               Work harder!               |\n");
+    } else{
+        if ((20.0 < perc) && (perc <= 50.0)){
+            printf("|         Not bad! You can more!           |\n");
+        } else{
+            if ((50.0 < perc) && (perc <= 80.0)){
+                printf("|    A few mistakes were made. Cool!       |\n");
+            } else{
+                printf("|             You are gorgeous!            |\n");
+            }
+        }
+    }
     return 0;
 }

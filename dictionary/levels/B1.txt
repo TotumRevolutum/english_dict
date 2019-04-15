@@ -21,7 +21,7 @@ correspondence(n) переписка #
 courage(v) смелость #
 craving(n) страстное желание #
 crawl(v) ползать #
-creative(n) творческий #
+creative(adj) творческий #
 dedication(v) верность #
 deliver(v) доставлять #
 depth(n) глубина #
