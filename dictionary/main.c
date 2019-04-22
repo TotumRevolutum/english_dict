@@ -33,15 +33,15 @@ int main() {
     perc = score / number * 100;
     printf("|           You got %lf %%            |\n", perc);
     if ((0.0 <= perc) && (perc <= 20.0)){
-        printf("|               Work harder!               |\n");
+        printf("|               Work harder!                |\n");
     } else{
         if ((20.0 < perc) && (perc <= 50.0)){
-            printf("|         Not bad! You can more!           |\n");
+            printf("|         Not bad! You can more!            |\n");
         } else{
             if ((50.0 < perc) && (perc <= 80.0)){
-                printf("|    A few mistakes were made. Cool!       |\n");
+                printf("|    A few mistakes were made. Cool!        |\n");
             } else{
-                printf("|             You are gorgeous!            |\n");
+                printf("|             You are gorgeous!             |\n");
             }
         }
     }

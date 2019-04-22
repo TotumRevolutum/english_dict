@@ -70,8 +70,8 @@ payment(n) оплата #
 piano(adv) пианино #
 poem(n) стихотворение #
 poetry(n) поэзия #
-publish(v) публиковать #
-realize(v) осознавать #
+publish(v) публиковать опубликовать #
+realize(v) осознавать понять #
 refuse(v) отказывать #
 revise(v) пересматривать #
 scientific(adj) научный #
@@ -84,13 +84,13 @@ story(n) история #
 stranger(n) незнакомец #
 success(n) успех #
 thought(n) мысль #
-tidy(n) up убирать #
+tidy(n) убирать #
 travel(v) путешествовать #
 unforgettable(adj) незабываемый #
 violin(n) скрипка #
 wander(v) бродить #
 weird(adj) странный #
-wheel(n) рулевое колесо #
+wheel(n) колесо #
 win(v) Выигрывать #
 writer(n) писатель #
 work(v) работать #
